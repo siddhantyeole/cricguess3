@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1bb295;
+}
+
+.wrapper {
+  width: 520px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  /* Add a box shadow for a sleek look */
+}
+
+.wrapper h1 {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 20px 25px;
+  border-bottom: 1px solid #ccc;
+}
+
+.wrapper h2 {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 25px;
+  border-bottom: 1px solid #ccc;
+}
+
+.wrapper .content {
+  margin: 25px;
+  padding: 10px;
+  /* Add padding to the content for spacing */
+}
+
+/* Add this CSS for the image to fit inside the wrapper */
+.wrapper .content img {
+  max-width: 100%;
+  /* Ensure the image doesn't exceed the content div's width */
+  display: block;
+  /* Remove any extra spacing */
+  margin: 0 auto;
+  /* Center the image horizontally within the content div */
+  border-radius: 10px;
+  /* Apply the same border radius as the wrapper */
+}
+
+.content .submit-btn {
+  width: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  padding: 15px 0;
+  background: #1bb295;
+  border-radius: 5px;
+}
+
+.content .continue-btn {
+  width: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  padding: 15px 0;
+  background: #1bb295;
+  border-radius: 5px;
+}
+
+.content .playagain-btn {
+  width: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  padding: 15px 0;
+  background: #1bb295;
+  border-radius: 5px;
+}
+
+.content .input-box {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 17px;
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#start-button {
+  width: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  padding: 15px 0;
+  background: #1bb295;
+  border-radius: 5px;
+}
+

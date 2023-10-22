@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Player Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper" id="start-screen">
+        <h1 class="game-title">Cricket Player Guessing Game</h1>
+        <h2 class="game-info">Guess how many runs the cricketer scored in the following images</h2>
+        <button id="start-button" class="st-button">Start</button>
+    </div>
+    <div class="wrapper" id="game-content" style="display: none;">
+        <h1 id="round-display" class="round-display">Round: 1</h1>
+        <div class="content">
+            <img id="player-image" src="" alt="Cricket Player">
+            <div id="runs-overlay" class="overlay">Actual Runs: <span id="actual-runs"></span></div>
+            <div id="button-container">
+                <form id="guess-form">
+                    <input class="input-box" type="number" id="runs-guess" required min="0" max="400" pattern="\d{1,3}" title="Please enter a number between 0 and 400" placeholder="Enter runs" required>
+                    <button class="submit-btn" id="submit-button" type="submit">Submit</button>
+                </form>
+                <p id="points-earned"></p>
+                <button class="continue-btn" id="continue-button">Continue</button>
+            </div>
+            <div id="game-over-screen">
+                <p id="final-score">Total</p>
+                <button class="playagain-btn" id="play-again-button">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
