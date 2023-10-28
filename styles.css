@@ -113,3 +113,22 @@ body {
   border-radius: 5px;
 }
 
+.total-points {
+	font-size: 20px;
+	font-weight: 500;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.points-box {
+	font-size: 18px;
+	font-weight: 500;
+	padding: 10px;
+	text-align: center;
+	background: #1bb295;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 20px;
+}
