@@ -65,12 +65,16 @@ function startNewRound() {
 
 
 // Function to calculate points based on guess proximity
+
+// Function to calculate points based on guess proximity
 function calculatePoints(userGuess, actualRuns) {
-	const difference = Math.abs(userGuess - actualRuns);
-	const maxDifference = actualRuns / 2; // 50% of actual runs
-	const scoreDelta = Math.max(100 - (difference / maxDifference) * 100, 0);
-	return Math.round(scoreDelta);
+		const difference = Math.abs(userGuess - actualRuns);
+		const maxDifference = actualRuns / 2; // Half of actual runs
+		const scoreDelta = Math.max(100 - (difference / maxDifference) * 100, 0);
+		return Math.round(scoreDelta);
 }
+
+
 
 // In the handleSubmit function, replace the existing scoring logic with this:
 function handleSubmit(event) {
